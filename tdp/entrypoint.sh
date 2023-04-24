@@ -2,7 +2,7 @@
 
 set -e
 
-TAG=${1:-release-4.10.0-TDP-0.1.0}
+TAG=${1:-release-4.10.0-0.0}
 
 git checkout $TAG
 PREFIX=/opt/tdp make install
