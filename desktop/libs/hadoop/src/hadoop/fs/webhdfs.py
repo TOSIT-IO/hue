@@ -214,7 +214,7 @@ class WebHdfs(Hdfs):
   def _getparams(self):
     return {
       "user.name": WebHdfs.DEFAULT_USER,
-      "doas": self.user
+      "doAs": self.user
     }
 
   def _getheaders(self):
