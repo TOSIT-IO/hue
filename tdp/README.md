@@ -69,7 +69,7 @@ Generate a `tar.gz` file of the release in the local `target/` folder:
 ```sh
 cd -
 mv /opt/tdp/hue /opt/tdp/hue-release-4.11.0
-tar cvzf /opt/tdp/hue-release-4.11.0-cp38-cp38-manylinux2014_x86_64.tar.gz -C /opt/tdp/ hue-release-4.11.0
+tar cvzf /opt/tdp/hue-release-4.11.0-2.0-cp38-cp38-manylinux2014_x86_64.tar.gz -C /opt/tdp/ hue-release-4.11.0
 ```
 
 **Note**: [Cloudera](https://docs.cloudera.com/cdp-private-cloud-base/7.1.8/installation/topics/cdpdc-install-python-3-centos.html) states to install a compiled Python with the shared library option enabled which is not the case in the [manylinux image](https://github.com/pypa/manylinux/blob/main/docker/build_scripts/build-cpython.sh#L36).
